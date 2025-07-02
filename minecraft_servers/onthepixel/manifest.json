@@ -1,1 +1,61 @@
-
+{
+  "server_name": "OnThePixel",
+  "nice_name": "OnThePixel Network",
+  "direct_ip": "play.onthepixel.net",
+  "server_wildcards": [
+    "%.bedwars.net",
+    "%.tntrun.de",
+    "%.buildffa.net",
+    "%.otp.cx",
+    "%.onthepixel.de"
+  ],
+  "supported_languages": [
+     "en",
+     "de"
+  ],
+  "social": {
+    "web": "https://onthepixel.net",
+    "tiktok": "onthepixel",
+    "instagram": "onthepixel_net",
+    "discord": "https://discord.gg/wM9PHjHyH7",
+    "youtube": "https://www.youtube.com/@onthepixel"
+  },
+  "gamemodes": {
+    "bedwars": {
+      "name": "BedWars", 
+      "color": "#FFA500",
+      "url": "https://bedwars.net",
+      "command": "/quickjoin Bedwars",
+      "versions": "1.21.6<*"
+    },
+    "tntrun": {
+      "name": "TNTRun",
+      "color": "#ADD8E6",
+      "url": "https://tntrun.de",
+      "command": "/quickjoin TNTRun",
+      "versions": "1.21.6<*"
+    },
+    "buildffa": {
+      "name": "BuildFFA",
+      "color": "#ADD8E6",
+      "url": "https://BuilldFFA.net",
+      "command": "/quickjoin BuildFFA",
+      "versions": "1.21.6<*"
+    }
+  },
+  "discord": {
+    "server_id": 1051287687233015841,
+    "rename_to_minecraft_name": false
+  },
+  "brand": {
+     "primary": "#008FE8",
+     "background": "#0A56A5",
+     "text": "#FFFFFF"
+  }, 
+  "location": {
+     "city": "Frankfurt",
+     "country": "Germany",
+     "country_code": "DE"
+  },
+  "user_stats": "https://onthepixel.net/stats/@{userName}",
+}
